@@ -1,0 +1,214 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+/*NavBar*/
+.nav{
+    background-color: black;
+    width: 100 vh;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.nav_link{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 40px;
+    color: black;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 15px;
+
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 15px;
+}
+/*Texto_1*/
+.Texto_1{
+    margin: 0;
+    margin-top: 0;
+    background-image: url(img/Banner.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    width: 100 vh;
+    height: 500px;
+    background-position-x: 45em;
+    background-position-y:0px ;
+    padding-top: 60px;
+    position:initial;
+    z-index: 0;
+}
+.Texto_1_titulo{
+
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-size: 50px;
+}
+.Texto_1_paragrafo{
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 25px;
+    flex-wrap: wrap;
+
+
+}
+.Pedir_Orçamento{
+    text-decoration: none;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 30px;
+    color: black;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+/*Mercado*/
+.mercado{
+    display: inline;
+     text-align: center;
+}
+.mercado_titulo{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.swiper-slide img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}
+.container_img{
+    display: flex;
+    justify-content: center;
+    color: black;
+    align-items: end;
+}
+.swiper-slide{
+    gap: 20px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+}
+/*Quem Somos*/
+.Quem_Somos_Titulo{
+
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-size: 50px;
+}
+.Quem_Somos_Paragrafo{
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 25px;
+    flex-wrap: wrap;
+
+}
+.Quem_Somos{
+    margin: 0;
+    margin-top: 0;
+    background-image: url(img/Banner.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    width: 100 vh;
+    height: 500px;
+    background-position-x: 42em;
+    background-position-y:top ;
+    padding-top: 60px;
+    position:initial;
+}
+/*Contatos*/
+.contatos{
+
+    width: 100 vh ;
+    height: 200px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 150px;
+}
+.contatos_titulo{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.link{
+    margin: 0;
+    font-size: 22px;
+}
+
+.container_contatos{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+}
+/*Footer*/
+.footer{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+}
+.footer_texto{
+    text-align: center;
+}
+
+/*Hover*/
+
+.nav_link:hover{
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+
+.Pedir_Orçamento:hover{
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+
+.swiper-slide img:hover{
+    opacity: 1;
+}
